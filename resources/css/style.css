@@ -1,0 +1,141 @@
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Pirata+One&display=swap');
+
+
+/* -------------------- GLOBAL DEFAULTS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a;
+    font-family: 'IM Fell English SC', serif;
+    color: white;
+}
+
+img,
+video,
+audio,
+iframe {
+    max-width: 100%;
+    max-height: 400px;
+    margin: 0 auto;
+    display: block;
+    border-style: ridge;
+    border-width: 8px;
+    border-color: #AD91DD;
+}
+
+
+/* -------------------- HEADINGS AND TYPE */
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+    text-align: center;
+    font-family: 'Pirata One', 'Franklin Gothic Medium';
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 26px
+}
+
+h5 {
+    font-size: 20px
+}
+
+
+p,
+summary,
+cite,
+em,
+dfn,
+blockquote,
+img {
+    color: white;
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+a {
+    color: #AD91DD
+}
+
+a:hover {
+    color: #c1dd91
+}
+
+a:visited {
+    color: #c1dd91;
+}
+
+ul,
+li {
+    text-align: left;
+    list-style-position: left;
+}
+
+
+/* -------------------- LAYOUTS */
+
+.layout-wide {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%
+}
+
+@media screen and (min-width: 600px) {
+    .europe {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .iframes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px
+    }
+    .lists {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px
+    }
+}
+
+
+/* -------------------- HEADER */
+
+/* -------------------- NAVIGATION */
+
+/* -------------------- FOOTER */
+
+/* -------------------- MODULES */
