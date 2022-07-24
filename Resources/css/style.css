@@ -1,0 +1,142 @@
+@import url("normalize.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100&display=swap');
+
+
+/* ---------------global defaults---------------- */
+
+*{ 
+  box-sizing: border-box;
+} 
+
+body {
+background-color: bisque;
+color: bisque;
+font-size: 20px;
+  
+font-family: 'Roboto', sans-serif;
+
+line-height:1.4; 
+} 
+
+img,
+iframe,
+video {max-width: 100%;}
+
+a:link{
+    color: bisque;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+  text-decoration: none;}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* ---------------headings and typography--------------- */
+
+p {
+  font-size: 15px;
+  color: bisque;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {font-family: 'Abril Fatface', cursive;
+    font-weight: normal; 
+    color: coral;}
+
+h1 { font-size: 60px
+}
+
+h2 { font-size: 40px
+}
+
+h3 { font-size: 30px
+}
+
+h4 { font-size: 20px
+}
+
+h5 { font-size: 20px
+}
+
+
+h1 + p {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  color: coral;
+  font-family: 'Abril Fatface', cursive;
+}
+
+
+/*---------------Layouts---------------*/
+
+.layout-wide { 
+  background-color:midnightblue;
+ 
+  max-width: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+/*---------------HEADER---------------*/
+
+header {
+  text-align: center;
+}
+
+/*---------------NAVIGATION---------------*/
+
+/*---------------FOOTER---------------*/
+
+footer {
+  text-align: center;
+}
+
+
+/*---------------MODULES---------------*/
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*-------------Images-----------------*/
+
+img {
+  border: 5px solid white;
+}
